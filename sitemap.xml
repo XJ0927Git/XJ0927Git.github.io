@@ -2,14 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://jiangbk.top/music/index.html</loc>
+    <loc>http://jiangbk.top/Gallery/photos/index.html</loc>
     
     <lastmod>2021-02-10</lastmod>
     
   </url>
   
   <url>
-    <loc>http://jiangbk.top/2021/02/10/1/</loc>
+    <loc>http://jiangbk.top/Gallery/index.html</loc>
+    
+    <lastmod>2021-02-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jiangbk.top/2020/01/03/5_Hexo%E7%BB%88%E6%9E%81%E9%83%A8%E7%BD%B2%EF%BC%9AGithub%20+%20Vercel/</loc>
+    
+    <lastmod>2021-02-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jiangbk.top/2020/01/02/3_%E9%83%A8%E7%BD%B2%E5%88%B0Gitee/</loc>
+    
+    <lastmod>2021-02-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jiangbk.top/2020/01/01/2-Hexo%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/</loc>
+    
+    <lastmod>2021-02-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jiangbk.top/2020/01/01/1-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo%20-%20%E5%89%AF%E6%9C%AC/</loc>
+    
+    <lastmod>2021-02-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jiangbk.top/2020/01/01/1-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo/</loc>
+    
+    <lastmod>2021-02-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jiangbk.top/2020/01/01/1/</loc>
+    
+    <lastmod>2021-02-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jiangbk.top/music/index.html</loc>
     
     <lastmod>2021-02-10</lastmod>
     
@@ -24,13 +73,6 @@
   
   <url>
     <loc>http://jiangbk.top/categories/index.html</loc>
-    
-    <lastmod>2021-02-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jiangbk.top/Gallery/index.html</loc>
     
     <lastmod>2021-02-10</lastmod>
     
@@ -57,34 +99,6 @@
     
   </url>
   
-  <url>
-    <loc>http://jiangbk.top/2021/02/09/2-Hexo%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BA/</loc>
-    
-    <lastmod>2021-02-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jiangbk.top/2021/02/09/1-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo/</loc>
-    
-    <lastmod>2021-02-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jiangbk.top/2021/02/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E6%96%87/</loc>
-    
-    <lastmod>2021-02-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jiangbk.top/2020/01/01/hello-world/</loc>
-    
-    <lastmod>2021-02-09</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>http://jiangbk.top/</loc>
@@ -95,21 +109,14 @@
 
   
   <url>
+    <loc>http://jiangbk.top/tags/Butterfly%E4%B8%BB%E9%A2%98/</loc>
+    <lastmod>2021-02-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jiangbk.top/tags/Hexo/</loc>
-    <lastmod>2021-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiangbk.top/tags/Github/</loc>
-    <lastmod>2021-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jiangbk.top/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2021-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -118,14 +125,14 @@
 
   
   <url>
-    <loc>http://jiangbk.top/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://jiangbk.top/categories/Hexo%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://jiangbk.top/categories/%E6%95%99%E7%A8%8B/Hexo/</loc>
+    <loc>http://jiangbk.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/</loc>
     <lastmod>2021-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
