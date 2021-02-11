@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jiangbk.top/music/index.html</loc>
+    
+    <lastmod>2021-02-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://jiangbk.top/2021/02/11/5_Hexo%E7%BB%88%E6%9E%81%E9%83%A8%E7%BD%B2Github-Vercel/</loc>
     
     <lastmod>2021-02-10</lastmod>
@@ -52,13 +59,6 @@
   
   <url>
     <loc>http://jiangbk.top/2020/01/01/1/</loc>
-    
-    <lastmod>2021-02-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jiangbk.top/music/index.html</loc>
     
     <lastmod>2021-02-10</lastmod>
     
@@ -132,14 +132,14 @@
 
   
   <url>
-    <loc>http://jiangbk.top/categories/Hexo%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://jiangbk.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/</loc>
     <lastmod>2021-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://jiangbk.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/</loc>
+    <loc>http://jiangbk.top/categories/Hexo%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
