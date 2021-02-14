@@ -6,7 +6,7 @@
   <link href="http://jiangbk.top/atom.xml" rel="self"/>
   
   <link href="http://jiangbk.top/"/>
-  <updated>2021-02-13T14:42:12.783Z</updated>
+  <updated>2021-02-14T05:05:18.869Z</updated>
   <id>http://jiangbk.top/</id>
   
   <author>
@@ -17,9 +17,182 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Debug调试</title>
+    <link href="http://jiangbk.top/2021/02/14/IDEA/12_Debug%E8%B0%83%E8%AF%95/"/>
+    <id>http://jiangbk.top/2021/02/14/IDEA/12_Debug%E8%B0%83%E8%AF%95/</id>
+    <published>2021-02-14T05:02:33.000Z</published>
+    <updated>2021-02-14T05:05:18.869Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Debug调试"><a href="#Debug调试" class="headerlink" title="Debug调试"></a>Debug调试</h1><p><strong>调试步骤：</strong></p><h3 id="1、设置断点"><a href="#1、设置断点" class="headerlink" title="1、设置断点"></a>1、设置断点</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214130436.png"></p><hr><h3 id="2、选择Debug运行方式"><a href="#2、选择Debug运行方式" class="headerlink" title="2、选择Debug运行方式"></a>2、选择Debug运行方式</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214130437.png"></p><hr><h3 id="3、选项键的说明"><a href="#3、选项键的说明" class="headerlink" title="3、选项键的说明"></a>3、选项键的说明</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214130438.png"></p><p><strong>依次说明：</strong></p><ul><li><p>Show Execution Point (Alt + F10)：如果你的光标在其它行或其它页面，点击这个按钮可跳转到当前代码执行的行。 </p></li><li><p>Step Over (F8)：步过，一行一行地往下走，如果这一行上有方法不会进入方法。</p></li><li><p>Step Into (F7)：步入，如果当前行有方法，可以进入方法内部，一般用于进入自定义方法内，不会进入官方类库的方法</p></li><li><p>Force Step Into (Alt + Shift + F7)：强制步入，能进入任何方法，查看底层源码的时候可以用这个进入官方类库的方法。</p></li><li><p>Step Out (Shift + F8)：步出，从步入的方法内退出到方法调用处，此时方法已执行完毕，只是还没有完成赋值。</p></li><li><p>Drop Frame (默认无)：回退断点</p></li><li><p>Run to Cursor (Alt + F9)：运行到光标处，你可以将光标定位到你需要查看的那一行，然后使用这个功能，代码会运行至光标行，而不需要打断点。</p></li></ul><hr><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214130439.png"></p><p><strong>依次说明：</strong></p><ul><li><p>Rerun ‘xxxx’：重新运行程序，会关闭服务后重新启动程序。</p></li><li><p>Resume Program (F9)：恢复程序，比如，你在第20行和25行有两个断点，当前运行至第20行，按F9，则运行到下一个断点(即第25行)，再按F9，则运行完整个流程，因为后面已经没有断点了。</p></li><li><p>Stop ‘xxx’ (Ctrl + F2)：连续按两下，关闭程序。有时候你会发现关闭服务再启动时，报端口被占用，这是因为没完全关闭服务的原因，你就需要查杀所有JVM进程了。</p></li><li><p>View Breakpoints (Ctrl + Shift + F8)：查看所有断点</p></li><li><p>Mute Breakpoints：哑的断点，选择这个后，所有断点变为灰色，断点失效，按F9则可以直接运行完程序。再次点击，断点变为红色，有效。如果只想使某一个断点失效，可以在断点上右键取消Enabled</p></li></ul><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Debug调试&quot;&gt;&lt;a href=&quot;#Debug调试&quot; class=&quot;headerlink&quot; title=&quot;Debug调试&quot;&gt;&lt;/a&gt;Debug调试&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;调试步骤：&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1、设置断点&quot;&gt;&lt;a href</summary>
+      
+    
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/categories/IDEA/"/>
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/tags/IDEA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IDEA常用快捷键</title>
+    <link href="http://jiangbk.top/2021/02/14/IDEA/11_IDEA%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://jiangbk.top/2021/02/14/IDEA/11_IDEA%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
+    <published>2021-02-14T04:18:01.000Z</published>
+    <updated>2021-02-14T04:19:48.951Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="IDEA常用快捷键"><a href="#IDEA常用快捷键" class="headerlink" title="IDEA常用快捷键"></a>IDEA常用快捷键</h1><ul><li><p>提示与代码生成部分</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Alt + Enter  IDEA 根据光标所在问题，提供快速修复选择</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + Alt + T 对选中的代码弹出环绕选项弹出层(try，if等语句包裹)</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Alt + Insert 代码自动生成，如生成对象的 set &#x2F; get 方法，构造函数，toString() 等</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + O 选择可重写的方法</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + I 选择可实现的方法</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + &#x2F; 注释光标所在行代码，会根据当前不同文件类型使用不同的注释符号</span><br></pre></td></tr></table></figure></li><li><p>选择/移动/复制代码:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + W 递进式选择代码块</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ctrl+Shift+w   递进式取消选择代码块</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + D 复制光标所在行 或 复制选择内容，并把复制内容插入光标位置下面</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl+Shift+↑或↓ : 移动当前行或代码结构</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + Y 删除光标所在行 或 删除选中的行</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + X 剪切光标所在行 或 剪切选择内容</span><br></pre></td></tr></table></figure></li><li><p>代码优化</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + Alt + O 优化导入的类，可以对当前文件和整个包目录使用</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + Alt + L 格式化代码，可以对当前文件和整个包目录使用</span><br></pre></td></tr></table></figure></li><li><p>查找与替换</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + F 在当前文件进行文本查找</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + Shift + F 根据输入内容查找整个项目 或 指定目录内文件</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">  </span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + R 在当前文件进行文本替换</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + Shift + R 根据输入内容替换对应内容，范围为整个项目 或 指定目录内文件</span><br></pre></td></tr></table></figure></li><li><p>阅读代码部分</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + F12 弹出当前文件结构层(类的方法属性等)，可以在弹出的层上直接输入，进行筛选</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + Q 光标所在的变量 &#x2F; 类名 &#x2F; 方法名等上面（也可以在提示补充的时候按），显示文档内容</span><br></pre></td></tr></table></figure></li></ul><h2 id="快捷键大全"><a href="#快捷键大全" class="headerlink" title="快捷键大全"></a>快捷键大全</h2><h3 id="1、Ctrl相关"><a href="#1、Ctrl相关" class="headerlink" title="1、Ctrl相关"></a>1、Ctrl相关</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + F 在当前文件进行文本查找 （必备）</span><br><span class="line">Ctrl + R 在当前文件进行文本替换 （必备）</span><br><span class="line">Ctrl + Z 撤销 （必备）</span><br><span class="line">Ctrl + Y 删除光标所在行 或 删除选中的行 （必备）</span><br><span class="line">Ctrl + X 剪切光标所在行 或 剪切选择内容</span><br><span class="line">Ctrl + C 复制光标所在行 或 复制选择内容</span><br><span class="line">Ctrl + D 复制光标所在行 或 复制选择内容，并把复制内容插入光标位置下面 （必备）</span><br><span class="line">Ctrl + W 递进式选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展选中范围 （必备）</span><br><span class="line">Ctrl + E 显示最近打开的文件记录列表</span><br><span class="line">Ctrl + N 根据输入的 类名 查找类文件</span><br><span class="line">Ctrl + G 在当前文件跳转到指定行处</span><br><span class="line">Ctrl + J 插入自定义动态代码模板</span><br><span class="line">Ctrl + P 方法参数提示显示</span><br><span class="line">Ctrl + Q 光标所在的变量 &#x2F; 类名 &#x2F; 方法名等上面（也可以在提示补充的时候按），显示文档内容</span><br><span class="line">Ctrl + U 前往当前光标所在的方法的父类的方法 &#x2F; 接口定义</span><br><span class="line">Ctrl + B 进入光标所在的方法&#x2F;变量的接口或是定义处，等效于 Ctrl + 左键单击</span><br><span class="line">Ctrl + K 版本控制提交项目，需要此项目有加入到版本控制才可用</span><br><span class="line">Ctrl + T 版本控制更新项目，需要此项目有加入到版本控制才可用</span><br><span class="line">Ctrl + H 显示当前类的层次结构</span><br><span class="line">Ctrl + O 选择可重写的方法</span><br><span class="line">Ctrl + I 选择可继承的方法</span><br><span class="line">Ctrl + + 展开代码</span><br><span class="line">Ctrl + - 折叠代码</span><br><span class="line">Ctrl + &#x2F; 注释光标所在行代码，会根据当前不同文件类型使用不同的注释符号 （必备）</span><br><span class="line">Ctrl + [ 移动光标到当前所在代码的花括号开始位置</span><br><span class="line">Ctrl + ] 移动光标到当前所在代码的花括号结束位置</span><br><span class="line">Ctrl + F1 在光标所在的错误代码处显示错误信息</span><br><span class="line">Ctrl + F3 调转到所选中的词的下一个引用位置</span><br><span class="line">Ctrl + F4 关闭当前编辑文件</span><br><span class="line">Ctrl + F8 在 Debug 模式下，设置光标当前行为断点，如果当前已经是断点则去掉断点</span><br><span class="line">Ctrl + F9 执行 Make Project 操作</span><br><span class="line">Ctrl + F11 选中文件 &#x2F; 文件夹，使用助记符设定 &#x2F; 取消书签</span><br><span class="line">Ctrl + F12 弹出当前文件结构层，可以在弹出的层上直接输入，进行筛选</span><br><span class="line">Ctrl + Tab 编辑窗口切换，如果在切换的过程又加按上delete，则是关闭对应选中的窗口</span><br><span class="line">Ctrl + Enter 智能分隔行</span><br><span class="line">Ctrl + End 跳到文件尾</span><br><span class="line">Ctrl + Home 跳到文件头</span><br><span class="line">Ctrl + Space 基础代码补全，默认在 Windows 系统上被输入法占用，需要进行修改，建议修改为 ALT+&#x2F;（必备）</span><br><span class="line">Ctrl + Delete 删除光标后面的单词或是中文句</span><br><span class="line">Ctrl + BackSpace 删除光标前面的单词或是中文句</span><br><span class="line">Ctrl + 1,2,3...9 定位到对应数值的书签位置</span><br><span class="line">Ctrl + 左键单击 在打开的文件标题上，弹出该文件路径</span><br><span class="line">Ctrl + 光标定位 按 Ctrl 不要松开，会显示光标所在的类信息摘要</span><br><span class="line">Ctrl + 左方向键 光标跳转到当前单词 &#x2F; 中文句的左侧开头位置</span><br><span class="line">Ctrl + 右方向键 光标跳转到当前单词 &#x2F; 中文句的右侧开头位置</span><br><span class="line">Ctrl + 前方向键 等效于鼠标滚轮向前效果</span><br><span class="line">Ctrl + 后方向键 等效于鼠标滚轮向后效果</span><br></pre></td></tr></table></figure><h3 id="2、Alt相关"><a href="#2、Alt相关" class="headerlink" title="2、Alt相关"></a>2、Alt相关</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">Alt + &#96; 显示版本控制常用操作菜单弹出层</span><br><span class="line">Alt + Q 弹出一个提示，显示当前类的声明 &#x2F; 上下文信息</span><br><span class="line">Alt + F1 显示当前文件选择目标弹出层，弹出层中有很多目标可以进行选择</span><br><span class="line">Alt + F2 对于前面页面，显示各类浏览器打开目标选择弹出层</span><br><span class="line">Alt + F3 选中文本，逐个往下查找相同文本，并高亮显示</span><br><span class="line">Alt + F7 查找光标所在的方法 &#x2F; 变量 &#x2F; 类被调用的地方</span><br><span class="line">Alt + F8 在 Debug 的状态下，选中对象，弹出可输入计算表达式调试框，查看该输入内容的调试结果</span><br><span class="line">Alt + Home 定位 &#x2F; 显示到当前文件的 Navigation Bar</span><br><span class="line">Alt + Enter IntelliJ IDEA 根据光标所在问题，提供快速修复选择，光标放在的位置不同提示的结果也不同 （必备）</span><br><span class="line">Alt + Insert 代码自动生成，如生成对象的 set &#x2F; get 方法，构造函数，toString() 等（必备）</span><br><span class="line">Alt + 左方向键 按左方向切换当前已打开的文件视图</span><br><span class="line">Alt + 右方向键 按右方向切换当前已打开的文件视图</span><br><span class="line">Alt + 前方向键 当前光标跳转到当前文件的前一个方法名位置</span><br><span class="line">Alt + 后方向键 当前光标跳转到当前文件的后一个方法名位置</span><br><span class="line">Alt + 1,2,3...9 显示对应数值的选项卡，其中 1 是 Project 用得最多</span><br></pre></td></tr></table></figure><h3 id="3、Shift相关"><a href="#3、Shift相关" class="headerlink" title="3、Shift相关"></a>3、Shift相关</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">Shift + F1 如果有外部文档可以连接外部文档</span><br><span class="line">Shift + F2 跳转到上一个高亮错误 或 警告位置</span><br><span class="line">Shift + F3 在查找模式下，查找匹配上一个</span><br><span class="line">Shift + F4 对当前打开的文件，使用新Windows窗口打开，旧窗口保留</span><br><span class="line">Shift + F6 对文件 &#x2F; 文件夹 重命名</span><br><span class="line">Shift + F7 在 Debug 模式下，智能步入。断点所在行上有多个方法调用，会弹出进入哪个方法</span><br><span class="line">Shift + F8 在 Debug 模式下，跳出，表现出来的效果跟 F9 一样</span><br><span class="line">Shift + F9 等效于点击工具栏的 Debug 按钮</span><br><span class="line">Shift + F10 等效于点击工具栏的 Run 按钮</span><br><span class="line">Shift + F11 弹出书签显示层</span><br><span class="line">Shift + Tab 取消缩进</span><br><span class="line">Shift + ESC 隐藏当前 或 最后一个激活的工具窗口</span><br><span class="line">Shift + End 选中光标到当前行尾位置</span><br><span class="line">Shift + Home 选中光标到当前行头位置</span><br><span class="line">Shift + Enter 开始新一行。光标所在行下空出一行，光标定位到新行位置</span><br><span class="line">Shift + 左键单击 在打开的文件名上按此快捷键，可以关闭当前打开文件</span><br><span class="line">Shift + 滚轮前后滚动 当前文件的横向滚动轴滚动</span><br></pre></td></tr></table></figure><h3 id="4、Ctrl-Alt相关"><a href="#4、Ctrl-Alt相关" class="headerlink" title="4、Ctrl + Alt相关"></a>4、Ctrl + Alt相关</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + Alt + L 格式化代码，可以对当前文件和整个包目录使用 （必备）</span><br><span class="line">Ctrl + Alt + O 优化导入的类，可以对当前文件和整个包目录使用 （必备）</span><br><span class="line">Ctrl + Alt + I 光标所在行 或 选中部分进行自动代码缩进，有点类似格式化</span><br><span class="line">Ctrl + Alt + T 对选中的代码弹出环绕选项弹出层</span><br><span class="line">Ctrl + Alt + J 弹出模板选择窗口，将选定的代码加入动态模板中</span><br><span class="line">Ctrl + Alt + H 调用层次</span><br><span class="line">Ctrl + Alt + B 在某个调用的方法名上使用会跳到具体的实现处，可以跳过接口</span><br><span class="line">Ctrl + Alt + V 快速引进变量</span><br><span class="line">Ctrl + Alt + Y 同步、刷新</span><br><span class="line">Ctrl + Alt + S 打开 IntelliJ IDEA 系统设置</span><br><span class="line">Ctrl + Alt + F7 显示使用的地方。寻找被该类或是变量被调用的地方，用弹出框的方式找出来</span><br><span class="line">Ctrl + Alt + F11 切换全屏模式</span><br><span class="line">Ctrl + Alt + Enter 光标所在行上空出一行，光标定位到新行</span><br><span class="line">Ctrl + Alt + Home 弹出跟当前文件有关联的文件弹出层</span><br><span class="line">Ctrl + Alt + Space 类名自动完成</span><br><span class="line">Ctrl + Alt + 左方向键 退回到上一个操作的地方 （必备）</span><br><span class="line">Ctrl + Alt + 右方向键 前进到上一个操作的地方 （必备）</span><br><span class="line">Ctrl + Alt + 前方向键 在查找模式下，跳到上个查找的文件</span><br><span class="line">Ctrl + Alt + 后方向键 在查找模式下，跳到下个查找的文件</span><br></pre></td></tr></table></figure><h3 id="5、Ctrl-Shift相关"><a href="#5、Ctrl-Shift相关" class="headerlink" title="5、Ctrl + Shift相关"></a>5、Ctrl + Shift相关</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + Shift + F 根据输入内容查找整个项目 或 指定目录内文件 （必备）</span><br><span class="line">Ctrl + Shift + R 根据输入内容替换对应内容，范围为整个项目 或 指定目录内文件 （必备）</span><br><span class="line">Ctrl + Shift + J 自动将下一行合并到当前行末尾 （必备）</span><br><span class="line">Ctrl + Shift + Z 取消撤销 （必备）</span><br><span class="line">Ctrl + Shift + W 递进式取消选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展取消选中范围 </span><br><span class="line"></span><br><span class="line">（必备）</span><br><span class="line">Ctrl + Shift + N 通过文件名定位 &#x2F; 打开文件 &#x2F; 目录，打开目录需要在输入的内容后面多加一个正斜杠 （必备）</span><br><span class="line">Ctrl + Shift + U 对选中的代码进行大 &#x2F; 小写轮流转换 （必备）</span><br><span class="line">Ctrl + Shift + T 对当前类生成单元测试类，如果已经存在的单元测试类则可以进行选择</span><br><span class="line">Ctrl + Shift + C 复制当前文件磁盘路径到剪贴板</span><br><span class="line">Ctrl + Shift + V 弹出缓存的最近拷贝的内容管理器弹出层</span><br><span class="line">Ctrl + Shift + E 显示最近修改的文件列表的弹出层</span><br><span class="line">Ctrl + Shift + H 显示方法层次结构</span><br><span class="line">Ctrl + Shift + B 跳转到类型声明处</span><br><span class="line">Ctrl + Shift + I 快速查看光标所在的方法 或 类的定义</span><br><span class="line">Ctrl + Shift + A 查找动作 &#x2F; 设置</span><br><span class="line">Ctrl + Shift + &#x2F; 代码块注释 （必备）</span><br><span class="line">Ctrl + Shift + [ 选中从光标所在位置到它的顶部中括号位置</span><br><span class="line">Ctrl + Shift + ] 选中从光标所在位置到它的底部中括号位置</span><br><span class="line">Ctrl + Shift + + 展开所有代码</span><br><span class="line">Ctrl + Shift + - 折叠所有代码</span><br><span class="line">Ctrl + Shift + F7 高亮显示所有该选中文本，按Esc高亮消失</span><br><span class="line">Ctrl + Shift + F8 在 Debug 模式下，指定断点进入条件</span><br><span class="line">Ctrl + Shift + F9 编译选中的文件 &#x2F; 包 &#x2F; Module</span><br><span class="line">Ctrl + Shift + F12 编辑器最大化</span><br><span class="line">Ctrl + Shift + Space 智能代码提示</span><br><span class="line">Ctrl + Shift + Enter 自动结束代码，行末自动添加分号 （必备）</span><br><span class="line">Ctrl + Shift + Backspace 退回到上次修改的地方</span><br><span class="line">Ctrl + Shift + 1,2,3...9 快速添加指定数值的书签</span><br><span class="line">Ctrl + Shift + 左键单击 把光标放在某个类变量上，按此快捷键可以直接定位到该类中 （必备）</span><br><span class="line">Ctrl + Shift + 左方向键 在代码文件上，光标跳转到当前单词 &#x2F; 中文句的左侧开头位置，同时选中该单词 &#x2F; 中文句</span><br><span class="line">Ctrl + Shift + 右方向键 在代码文件上，光标跳转到当前单词 &#x2F; 中文句的右侧开头位置，同时选中该单词 &#x2F; 中文句</span><br><span class="line">Ctrl + Shift + 左方向键 在光标焦点是在工具选项卡上，缩小选项卡区域</span><br><span class="line">Ctrl + Shift + 右方向键 在光标焦点是在工具选项卡上，扩大选项卡区域</span><br><span class="line">Ctrl + Shift + 前方向键 光标放在方法名上，将方法移动到上一个方法前面，调整方法排序</span><br><span class="line">Ctrl + Shift + 后方向键 光标放在方法名上，将方法移动到下一个方法前面，调整方法排序</span><br></pre></td></tr></table></figure><h3 id="6、Alt-Shift相关"><a href="#6、Alt-Shift相关" class="headerlink" title="6、Alt + Shift相关"></a>6、Alt + Shift相关</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">Alt + Shift + N 选择 &#x2F; 添加 task</span><br><span class="line">Alt + Shift + F 显示添加到收藏夹弹出层 &#x2F; 添加到收藏夹</span><br><span class="line">Alt + Shift + C 查看最近操作项目的变化情况列表</span><br><span class="line">Alt + Shift + I 查看项目当前文件</span><br><span class="line">Alt + Shift + F7 在 Debug 模式下，下一步，进入当前方法体内，如果方法体还有方法，则会进入该内嵌的方法中，依此循环</span><br><span class="line"></span><br><span class="line">进入</span><br><span class="line">Alt + Shift + F9 弹出 Debug 的可选择菜单</span><br><span class="line">Alt + Shift + F10 弹出 Run 的可选择菜单</span><br><span class="line">Alt + Shift + 左键双击 选择被双击的单词 &#x2F; 中文句，按住不放，可以同时选择其他单词 &#x2F; 中文句</span><br><span class="line">Alt + Shift + 前方向键 移动光标所在行向上移动</span><br><span class="line">Alt + Shift + 后方向键 移动光标所在行向下移动</span><br></pre></td></tr></table></figure><h3 id="7、其他"><a href="#7、其他" class="headerlink" title="7、其他"></a>7、其他</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">F2 跳转到下一个高亮错误 或 警告位置 （必备）</span><br><span class="line">F3 在查找模式下，定位到下一个匹配处</span><br><span class="line">F4 编辑源</span><br><span class="line">F7 在 Debug 模式下，进入下一步，如果当前行断点是一个方法，则进入当前方法体内，如果该方法体还有方法，则不会进入该</span><br><span class="line"></span><br><span class="line">内嵌的方法中</span><br><span class="line">F8 在 Debug 模式下，进入下一步，如果当前行断点是一个方法，则不进入当前方法体内</span><br><span class="line">F9 在 Debug 模式下，恢复程序运行，但是如果该断点下面代码还有断点则停在下一个断点上</span><br><span class="line">F11 添加书签</span><br><span class="line">F12 回到前一个工具窗口</span><br><span class="line">Tab 缩进</span><br><span class="line">ESC 从工具窗口进入代码文件窗口</span><br><span class="line"></span><br><span class="line">Ctrl + Shift + Alt + V 无格式黏贴</span><br><span class="line">Ctrl + Shift + Alt + N 前往指定的变量 &#x2F; 方法</span><br><span class="line">Ctrl + Shift + Alt + S 打开当前项目设置</span><br><span class="line">Ctrl + Shift + Alt + C 复制参考信息</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;IDEA常用快捷键&quot;&gt;&lt;a href=&quot;#IDEA常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;IDEA常用快捷键&quot;&gt;&lt;/a&gt;IDEA常用快捷键&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;提示与代码生成部分&lt;/p&gt;
+&lt;figure class=&quot;high</summary>
+      
+    
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/categories/IDEA/"/>
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/tags/IDEA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IDEA 2019.3.4完美破解(亲测有效)</title>
+    <link href="http://jiangbk.top/2021/02/14/IDEA/10_IDEA-2019-3-4%E5%AE%8C%E7%BE%8E%E7%A0%B4%E8%A7%A3-%E4%BA%B2%E6%B5%8B%E6%9C%89%E6%95%88/"/>
+    <id>http://jiangbk.top/2021/02/14/IDEA/10_IDEA-2019-3-4%E5%AE%8C%E7%BE%8E%E7%A0%B4%E8%A7%A3-%E4%BA%B2%E6%B5%8B%E6%9C%89%E6%95%88/</id>
+    <published>2021-02-14T04:09:14.000Z</published>
+    <updated>2021-02-14T04:11:51.445Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="IDEA-2019-3-4完美破解-亲测有效"><a href="#IDEA-2019-3-4完美破解-亲测有效" class="headerlink" title="IDEA 2019.3.4完美破解(亲测有效)"></a>IDEA 2019.3.4完美破解(亲测有效)</h1><blockquote><p>本项目只做学习研究之用，不得用于商业用途！</p><p>若资金允许，请点击 [<a href="https://www.jetbrains.com/idea/buy/]">https://www.jetbrains.com/idea/buy/]</a> 购买正版！！！</p></blockquote><hr><p><a href="https://www.jetbrains.com/">IDEA官网</a></p><p>所需要的插件：<font color='orange'>jetbrains-agent.jar</font></p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 百度网盘</span></span><br><span class="line">链接：https://pan.baidu.com/s/1RHase0KlvJF-afS<span class="emphasis">_mPDTaw </span></span><br><span class="line"><span class="emphasis">提取码：rbjv </span></span><br></pre></td></tr></table></figure><hr><p>安装步骤：</p><p>首先，安装idea，然后使用免费30天进入，随便创建一个项目，进入主界面。</p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214120955.png"  /><hr><p>其次，把jetbrains-agent.jar 包拖进idea主界面，选择重启。restart now</p><p>再次，重启完，选择激活方式为 activation_code 方式，会在重启一次。</p><p>最后，idea主界面，选择Help - About,查看激活时间。我的激活时间为70年</p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;IDEA-2019-3-4完美破解-亲测有效&quot;&gt;&lt;a href=&quot;#IDEA-2019-3-4完美破解-亲测有效&quot; class=&quot;headerlink&quot; title=&quot;IDEA 2019.3.4完美破解(亲测有效)&quot;&gt;&lt;/a&gt;IDEA 2019.3.4完美破解(亲</summary>
+      
+    
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/categories/IDEA/"/>
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/tags/IDEA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IDEA单元测试</title>
+    <link href="http://jiangbk.top/2021/02/14/IDEA/9_IDEA%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
+    <id>http://jiangbk.top/2021/02/14/IDEA/9_IDEA%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</id>
+    <published>2021-02-14T03:59:13.000Z</published>
+    <updated>2021-02-14T04:02:15.236Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="IDEA单元测试"><a href="#IDEA单元测试" class="headerlink" title="IDEA单元测试"></a>IDEA单元测试</h1><h2 id="使用步骤"><a href="#使用步骤" class="headerlink" title="使用步骤"></a>使用步骤</h2><h3 id="下载jar文件"><a href="#下载jar文件" class="headerlink" title="下载jar文件"></a>下载jar文件</h3><p>链接：<a href="https://pan.baidu.com/s/1ZZ7LB1TZK8qQM-hcPwYuaw">https://pan.baidu.com/s/1ZZ7LB1TZK8qQM-hcPwYuaw</a><br>提取码：uv62</p><h3 id="新建lib文件夹"><a href="#新建lib文件夹" class="headerlink" title="新建lib文件夹"></a>新建lib文件夹</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115847.png"></p><h3 id="将jar文件粘贴到lib文件夹中"><a href="#将jar文件粘贴到lib文件夹中" class="headerlink" title="将jar文件粘贴到lib文件夹中"></a>将jar文件粘贴到lib文件夹中</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115848.png"></p><h3 id="引入Jar文件"><a href="#引入Jar文件" class="headerlink" title="引入Jar文件"></a>引入Jar文件</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115849.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115850.png"></p><h3 id="新建test文件夹"><a href="#新建test文件夹" class="headerlink" title="新建test文件夹"></a>新建test文件夹</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115851.png"></p><h3 id="将test文件夹设置为测试文件夹"><a href="#将test文件夹设置为测试文件夹" class="headerlink" title="将test文件夹设置为测试文件夹"></a>将test文件夹设置为测试文件夹</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115852.png"></p><h3 id="在任意要测试的类里按下shift-ctrl-t-生成测试类"><a href="#在任意要测试的类里按下shift-ctrl-t-生成测试类" class="headerlink" title="在任意要测试的类里按下shift+ctrl+t 生成测试类"></a>在任意要测试的类里按下shift+ctrl+t 生成测试类</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115853.png"></p><p>此时可能出现使用<code>shift + ctrl + t</code>弹出 <code>Class类查找</code></p><p>解决方法：手动设置自动创建测试类的快捷键即可</p><p><strong>点击 file-&gt; setting -&gt; keymap 搜索：test</strong></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115854.png"></p><p>鼠标右键：add keyBoard Shortcut 设置你想要的快捷键  Apply -&gt;OK即可</p><hr><h4 id="选择Create-new-Test…"><a href="#选择Create-new-Test…" class="headerlink" title="选择Create new Test…"></a>选择Create new Test…</h4><p>选择要测试的方法和版本:</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115855.png"></p><h4 id="选择已创建过的测试类"><a href="#选择已创建过的测试类" class="headerlink" title="选择已创建过的测试类"></a>选择已创建过的测试类</h4><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115856.png"></p><h4 id="测试类创建完毕-编写测试代码"><a href="#测试类创建完毕-编写测试代码" class="headerlink" title="测试类创建完毕, 编写测试代码"></a>测试类创建完毕, 编写测试代码</h4><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115857.png"></p><h4 id="执行测试观察效果"><a href="#执行测试观察效果" class="headerlink" title="执行测试观察效果"></a>执行测试观察效果</h4><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115858.png"></p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;IDEA单元测试&quot;&gt;&lt;a href=&quot;#IDEA单元测试&quot; class=&quot;headerlink&quot; title=&quot;IDEA单元测试&quot;&gt;&lt;/a&gt;IDEA单元测试&lt;/h1&gt;&lt;h2 id=&quot;使用步骤&quot;&gt;&lt;a href=&quot;#使用步骤&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/categories/IDEA/"/>
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/tags/IDEA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IDEA 类注释+方法注释的快捷设置</title>
+    <link href="http://jiangbk.top/2021/02/14/IDEA/8_IDEA-%E7%B1%BB%E6%B3%A8%E9%87%8A-%E6%96%B9%E6%B3%95%E6%B3%A8%E9%87%8A%E7%9A%84%E5%BF%AB%E6%8D%B7%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://jiangbk.top/2021/02/14/IDEA/8_IDEA-%E7%B1%BB%E6%B3%A8%E9%87%8A-%E6%96%B9%E6%B3%95%E6%B3%A8%E9%87%8A%E7%9A%84%E5%BF%AB%E6%8D%B7%E8%AE%BE%E7%BD%AE/</id>
+    <published>2021-02-14T03:55:01.000Z</published>
+    <updated>2021-02-14T04:00:31.492Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="IDEA：类注释-方法注释的快捷设置"><a href="#IDEA：类注释-方法注释的快捷设置" class="headerlink" title="IDEA：类注释/方法注释的快捷设置"></a>IDEA：类注释/方法注释的快捷设置</h1><h2 id="类注释"><a href="#类注释" class="headerlink" title="类注释"></a>类注释</h2><h3 id="修改类头的文档注释信息"><a href="#修改类头的文档注释信息" class="headerlink" title="修改类头的文档注释信息"></a>修改类头的文档注释信息</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115421.png"></p><p>模板内容如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line">@Author: xj0927</span><br><span class="line">@Description: </span><br><span class="line">@Date Created in $&#123;YEAR&#125;-$&#123;MONTH&#125;-$&#123;DAY&#125; $&#123;TIME&#125; </span><br><span class="line">@Modified By: </span><br><span class="line">*&#x2F;</span><br></pre></td></tr></table></figure><p>直接在右边的文件框里编辑你说需要注释的东西，然后应用保存之后,<strong>当你创建类的时候就会自动生成注释。</strong> </p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115422.png"></p><hr><h2 id="方法注释"><a href="#方法注释" class="headerlink" title="方法注释"></a>方法注释</h2><h3 id="要求效果："><a href="#要求效果：" class="headerlink" title="要求效果："></a>要求效果：</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115423.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">**</span><br><span class="line">* @Description: 添加你要描述的内容~~</span><br><span class="line">* @Param: [a,b,c,d]</span><br><span class="line">* @Return: </span><br><span class="line">* @Author: xj0927</span><br><span class="line">* @Date Created in 2020&#x2F;08&#x2F;19 11:37</span><br><span class="line">*&#x2F;</span><br></pre></td></tr></table></figure><h3 id="具体实现步骤："><a href="#具体实现步骤：" class="headerlink" title="具体实现步骤："></a>具体实现步骤：</h3><p>1、打开系统设置Setting（Ctrl+Alt+S快捷键）</p><p>2、Editor—&gt;Live Templates—&gt;点击+号。添加一个templates group来放置自己快捷键，效果图如下：</p><p>3、选中创建的MyGroup—&gt;再次点击+号，添加一个Live template</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115424.png"></p><p>4.还是在fifile-&gt;setting-&gt;Editor-&gt;LiveTemplates这个路径下点击一下刚刚你添加的那个名字MyGroup，然后点击右边 上面那个+号，选择LiveTemplate，填写下面设置自定义的快捷键模板：</p><blockquote><p> Abbreviation：快捷键，</p><p> Description：描述该快捷键</p><p> Template text：自定义的快捷键模板</p></blockquote><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">**</span><br><span class="line">* <span class="meta">@Description</span>: $description$ </span><br><span class="line">* <span class="meta">@Param</span>: $params$ </span><br><span class="line">* <span class="meta">@Return</span>: $<span class="keyword">return</span>$</span><br><span class="line">* <span class="meta">@Author</span>: xj0927</span><br><span class="line">* <span class="meta">@Date</span> Created in $data$ $time$</span><br><span class="line">*/</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115425.png"></p><p>5.设置注释的关联变量：先设置好Template text内容后—&gt;Edit variables，变量如效果图设置就好。效果图：</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115426.png"></p><p>注意：注意：注意：设置完应用一下Apply</p><p>应用的时候直接在方法前边写：/+快捷键名+Enter键。即可，比如我设置的快捷键方法名是a，效果图便是：</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214115427.png"></p><div class="note success simple"><p>设置完成</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;IDEA：类注释-方法注释的快捷设置&quot;&gt;&lt;a href=&quot;#IDEA：类注释-方法注释的快捷设置&quot; class=&quot;headerlink&quot; title=&quot;IDEA：类注释/方法注释的快捷设置&quot;&gt;&lt;/a&gt;IDEA：类注释/方法注释的快捷设置&lt;/h1&gt;&lt;h2 id=&quot;类</summary>
+      
+    
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/categories/IDEA/"/>
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/tags/IDEA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给 IDEA 换个养眼的主题</title>
+    <link href="http://jiangbk.top/2021/02/14/IDEA/7_%E7%BB%99-IDEA-%E6%8D%A2%E4%B8%AA%E5%85%BB%E7%9C%BC%E7%9A%84%E4%B8%BB%E9%A2%98/"/>
+    <id>http://jiangbk.top/2021/02/14/IDEA/7_%E7%BB%99-IDEA-%E6%8D%A2%E4%B8%AA%E5%85%BB%E7%9C%BC%E7%9A%84%E4%B8%BB%E9%A2%98/</id>
+    <published>2021-02-14T03:51:25.000Z</published>
+    <updated>2021-02-14T03:52:46.300Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="以下推荐几款个人喜欢的-两款主题"><a href="#以下推荐几款个人喜欢的-两款主题" class="headerlink" title="以下推荐几款个人喜欢的 两款主题"></a>以下推荐几款个人喜欢的 两款主题</h3><h4 id="第一款：Xcode-Dark-Theme"><a href="#第一款：Xcode-Dark-Theme" class="headerlink" title="第一款：Xcode-Dark Theme"></a>第一款：Xcode-Dark Theme</h4><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114858.png"></p><h4 id="第二款：One-Dark-theme"><a href="#第二款：One-Dark-theme" class="headerlink" title="第二款：One Dark theme"></a>第二款：One Dark theme</h4><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114859.png"></p><hr><h3 id="如何下载主题"><a href="#如何下载主题" class="headerlink" title="如何下载主题"></a>如何下载主题</h3><p>在 IDEA 中下载：搜索这 2 个插件下载即可</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114900.png"></p><hr><h3 id="如何更换主题"><a href="#如何更换主题" class="headerlink" title="如何更换主题"></a>如何更换主题</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114901.png"></p><p>Apply 即可！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;以下推荐几款个人喜欢的-两款主题&quot;&gt;&lt;a href=&quot;#以下推荐几款个人喜欢的-两款主题&quot; class=&quot;headerlink&quot; title=&quot;以下推荐几款个人喜欢的 两款主题&quot;&gt;&lt;/a&gt;以下推荐几款个人喜欢的 两款主题&lt;/h3&gt;&lt;h4 id=&quot;第一款：Xcode</summary>
+      
+    
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/categories/IDEA/"/>
+    
+    
+    <category term="IDEA" scheme="http://jiangbk.top/tags/IDEA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Typora + PicGo + Gitee实现图片上传</title>
+    <link href="http://jiangbk.top/2021/02/14/Hexo%E5%8D%9A%E5%AE%A2/6_Typora-PicGo-Gitee%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/"/>
+    <id>http://jiangbk.top/2021/02/14/Hexo%E5%8D%9A%E5%AE%A2/6_Typora-PicGo-Gitee%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/</id>
+    <published>2021-02-14T03:05:06.000Z</published>
+    <updated>2021-02-14T03:46:57.283Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Typora-PicGo-Gitee实现图片上传"><a href="#Typora-PicGo-Gitee实现图片上传" class="headerlink" title="Typora + PicGo + Gitee实现图片上传"></a>Typora + PicGo + Gitee实现图片上传</h1><h2 id="下载工具"><a href="#下载工具" class="headerlink" title="下载工具"></a>下载工具</h2><h3 id="下载typora"><a href="#下载typora" class="headerlink" title="下载typora"></a>下载typora</h3><blockquote><p>此软件用于撰写markdown文档，新版本支持图片粘贴图片功能</p></blockquote><p><a href="https://www.typora.io/#windows">官网下载</a></p><h3 id="下载图床工具picgo"><a href="#下载图床工具picgo" class="headerlink" title="下载图床工具picgo"></a>下载图床工具picgo</h3><blockquote><p>所谓图床工具，就是自动把本地图片转换成链接的一款工具，网络上有很多图床工具，就目前使用种类而言，PicGo 算得上一款比较优秀的图床工具。它是一款用 Electron-vue 开发的软件，可以支持微博，七牛云，腾讯云COS，又拍云，GitHub，阿里云OSS，SM.MS，imgur 等8种常用图床，功能强大，简单易用</p></blockquote><p><a href="https://github.com/Molunerfinn/PicGo/releases">github下载地址</a><br><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114644.png" alt="image-20210214111008639"></p><hr><h2 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h2><h3 id="在gitee上创建仓库（公开的！）"><a href="#在gitee上创建仓库（公开的！）" class="headerlink" title="在gitee上创建仓库（公开的！）"></a>在gitee上创建仓库（公开的！）</h3><blockquote><p>没有账号可以申请一个</p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114645.png" alt="image-20210214111212552"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114646.png" alt="image-20210214112956581"></p><blockquote><p>去设置里面找到私人令牌添加一个新的</p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114647.png" alt="image-20210214113141098"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114648.png" alt="image-20210214113153874"></p><hr><h3 id="配置picgo图床工具"><a href="#配置picgo图床工具" class="headerlink" title="配置picgo图床工具"></a>配置picgo图床工具</h3><p>下载<code>gitee-uploader</code>插件，这里需要你电脑有<code>node环境</code>（具体安装可以百度，比较简单）<br><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114649.png" alt="image-20210214113409680"></p><p>下载完插件后<code>图床设置</code>里面多个gitee，然后进行设置：<code>owner</code>：用户名，<code>repo仓库</code>：仓库名 ,<code>token私人令牌</code> ：你刚设置的令牌 ，然后点击确定</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114650.png" alt="image-20210214113526607"></p><hr><h3 id="配置typora"><a href="#配置typora" class="headerlink" title="配置typora"></a>配置typora</h3><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114651.png" alt="image-20210214113701562"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114652.png" alt="image-20210214113713876"></p><blockquote><p>你也可以验证一下是否成功</p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114653.png" alt="image-20210214113726898"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114654.png" alt="image-20210214113738895"></p><blockquote><p>回到你gitee仓库，这时候已经多了两个图片，说明已经图床已经搭建完毕</p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114655.png" alt="image-20210214113903651"></p><h2 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h2><p>1、随便截一张图，粘贴到typora：</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114656.png"></p><hr><p>2、一键上传所有图片<br><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114657.png" alt="image-20210214114218080"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210214114658.png" alt="image-20210214114315519"></p><hr><p>当你需要的时候，就可以在任何地方引入该链接，使用图片！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Typora-PicGo-Gitee实现图片上传&quot;&gt;&lt;a href=&quot;#Typora-PicGo-Gitee实现图片上传&quot; class=&quot;headerlink&quot; title=&quot;Typora + PicGo + Gitee实现图片上传&quot;&gt;&lt;/a&gt;Typora + P</summary>
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="http://jiangbk.top/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="http://jiangbk.top/tags/Hexo/"/>
+    
+    <category term="Typora" scheme="http://jiangbk.top/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo终极部署Github + Vercel</title>
-    <link href="http://jiangbk.top/2021/02/11/5_Hexo%E7%BB%88%E6%9E%81%E9%83%A8%E7%BD%B2Github-Vercel/"/>
-    <id>http://jiangbk.top/2021/02/11/5_Hexo%E7%BB%88%E6%9E%81%E9%83%A8%E7%BD%B2Github-Vercel/</id>
+    <link href="http://jiangbk.top/2021/02/11/Hexo%E5%8D%9A%E5%AE%A2/5_Hexo%E7%BB%88%E6%9E%81%E9%83%A8%E7%BD%B2Github-Vercel/"/>
+    <id>http://jiangbk.top/2021/02/11/Hexo%E5%8D%9A%E5%AE%A2/5_Hexo%E7%BB%88%E6%9E%81%E9%83%A8%E7%BD%B2Github-Vercel/</id>
     <published>2021-02-10T18:55:55.000Z</published>
     <updated>2021-02-13T14:42:12.783Z</updated>
     
@@ -42,8 +215,8 @@
   
   <entry>
     <title>Hexo 部署到Gitee 码云</title>
-    <link href="http://jiangbk.top/2020/01/02/3_%E9%83%A8%E7%BD%B2%E5%88%B0Gitee/"/>
-    <id>http://jiangbk.top/2020/01/02/3_%E9%83%A8%E7%BD%B2%E5%88%B0Gitee/</id>
+    <link href="http://jiangbk.top/2020/01/02/Hexo%E5%8D%9A%E5%AE%A2/3_%E9%83%A8%E7%BD%B2%E5%88%B0Gitee/"/>
+    <id>http://jiangbk.top/2020/01/02/Hexo%E5%8D%9A%E5%AE%A2/3_%E9%83%A8%E7%BD%B2%E5%88%B0Gitee/</id>
     <published>2020-01-01T16:00:00.000Z</published>
     <updated>2021-02-10T11:05:35.674Z</updated>
     
@@ -66,8 +239,8 @@
   
   <entry>
     <title>Hexo部署到Github</title>
-    <link href="http://jiangbk.top/2020/01/02/4_Hexo%E9%83%A8%E7%BD%B2%E5%88%B0Github/"/>
-    <id>http://jiangbk.top/2020/01/02/4_Hexo%E9%83%A8%E7%BD%B2%E5%88%B0Github/</id>
+    <link href="http://jiangbk.top/2020/01/02/Hexo%E5%8D%9A%E5%AE%A2/4_Hexo%E9%83%A8%E7%BD%B2%E5%88%B0Github/"/>
+    <id>http://jiangbk.top/2020/01/02/Hexo%E5%8D%9A%E5%AE%A2/4_Hexo%E9%83%A8%E7%BD%B2%E5%88%B0Github/</id>
     <published>2020-01-01T16:00:00.000Z</published>
     <updated>2021-02-10T12:21:21.108Z</updated>
     
@@ -90,8 +263,8 @@
   
   <entry>
     <title>Hexo 本地部署</title>
-    <link href="http://jiangbk.top/2020/01/01/2-Hexo%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/"/>
-    <id>http://jiangbk.top/2020/01/01/2-Hexo%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/</id>
+    <link href="http://jiangbk.top/2020/01/01/Hexo%E5%8D%9A%E5%AE%A2/2-Hexo%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/"/>
+    <id>http://jiangbk.top/2020/01/01/Hexo%E5%8D%9A%E5%AE%A2/2-Hexo%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/</id>
     <published>2019-12-31T16:00:02.000Z</published>
     <updated>2021-02-10T11:05:23.294Z</updated>
     
@@ -114,9 +287,34 @@
   </entry>
   
   <entry>
+    <title>博客写作配置栏</title>
+    <link href="http://jiangbk.top/2020/01/01/%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF/"/>
+    <id>http://jiangbk.top/2020/01/01/%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF/</id>
+    <published>2019-12-31T16:00:00.000Z</published>
+    <updated>2021-02-14T04:14:54.971Z</updated>
+    
+    <content type="html"><![CDATA[<p>博客配置，可以直接复制使用，参数根据需要进行添加，详细事宜可参考：<a href="https://butterfly.js.org/posts/dc584b87/">Butterfly官方文档</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">title: </span><br><span class="line">date: </span><br><span class="line">updated: </span><br><span class="line">type: </span><br><span class="line"> - </span><br><span class="line"> - </span><br><span class="line">categories:</span><br><span class="line"> - </span><br><span class="line"> - </span><br><span class="line">tags: </span><br><span class="line"> - </span><br><span class="line"> -</span><br><span class="line">sticky: </span><br><span class="line">copyright: </span><br><span class="line">comments: </span><br><span class="line">description: </span><br><span class="line">keywords: </span><br><span class="line">top_img: </span><br><span class="line">toc_number: true</span><br><span class="line">mathjax:</span><br><span class="line">katex:</span><br><span class="line">aside:</span><br><span class="line">aplayer:</span><br><span class="line">highlight_shrink:</span><br><span class="line">cover: </span><br></pre></td></tr></table></figure><hr><p>参数含义：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">title: 文章标题</span><br><span class="line">date: 发表时间</span><br><span class="line">updated: 更新时间</span><br><span class="line">type: 文章类型</span><br><span class="line"> - </span><br><span class="line"> - </span><br><span class="line">categories: 文章分类</span><br><span class="line"> - </span><br><span class="line"> - </span><br><span class="line">tags: 文章标签</span><br><span class="line"> - </span><br><span class="line">toc_number: 是否显示文章标题顺序</span><br><span class="line">sticky: 置顶度，1开始，越大越往前</span><br><span class="line">comments: 是否显示评论</span><br><span class="line">description: 文章描述</span><br><span class="line">keywords: 关键字</span><br><span class="line">top_img: 文章顶部图片</span><br><span class="line">mathjax:</span><br><span class="line">katex:</span><br><span class="line">copyright: 是否开启文章版权</span><br><span class="line">aside: 侧边栏</span><br><span class="line">aplayer:</span><br><span class="line">highlight_shrink:</span><br><span class="line">cover: 文章封面图</span><br></pre></td></tr></table></figure><hr><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tags: </span><br><span class="line"> - </span><br><span class="line">categories:</span><br><span class="line"> - </span><br><span class="line">cover: </span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;博客配置，可以直接复制使用，参数根据需要进行添加，详细事宜可参考：&lt;a href=&quot;https://butterfly.js.org/posts/dc584b87/&quot;&gt;Butterfly官方文档&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;</summary>
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="http://jiangbk.top/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Butterfly主题" scheme="http://jiangbk.top/tags/Butterfly%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博客选择</title>
-    <link href="http://jiangbk.top/2020/01/01/1-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo/"/>
-    <id>http://jiangbk.top/2020/01/01/1-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo/</id>
+    <link href="http://jiangbk.top/2020/01/01/Hexo%E5%8D%9A%E5%AE%A2/1-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo/"/>
+    <id>http://jiangbk.top/2020/01/01/Hexo%E5%8D%9A%E5%AE%A2/1-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo/</id>
     <published>2019-12-31T16:00:00.000Z</published>
     <updated>2021-02-10T11:05:12.613Z</updated>
     
@@ -132,31 +330,6 @@
     
     <category term="Hexo博客" scheme="http://jiangbk.top/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>博客写作配置栏</title>
-    <link href="http://jiangbk.top/2020/01/01/1/"/>
-    <id>http://jiangbk.top/2020/01/01/1/</id>
-    <published>2019-12-31T16:00:00.000Z</published>
-    <updated>2021-02-10T09:41:48.027Z</updated>
-    
-    <content type="html"><![CDATA[<p>博客配置，可以直接复制使用，参数根据需要进行添加，详细事宜可参考：<a href="https://butterfly.js.org/posts/dc584b87/">Butterfly官方文档</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">title: </span><br><span class="line">date: </span><br><span class="line">updated: </span><br><span class="line">type: </span><br><span class="line"> - </span><br><span class="line"> - </span><br><span class="line">categories:</span><br><span class="line"> - </span><br><span class="line"> - </span><br><span class="line">tags: </span><br><span class="line"> - </span><br><span class="line"> -</span><br><span class="line">sticky: </span><br><span class="line">copyright: </span><br><span class="line">comments: </span><br><span class="line">description: </span><br><span class="line">keywords: </span><br><span class="line">top_img: </span><br><span class="line">toc_number: true</span><br><span class="line">mathjax:</span><br><span class="line">katex:</span><br><span class="line">aside:</span><br><span class="line">aplayer:</span><br><span class="line">highlight_shrink:</span><br><span class="line">cover: </span><br></pre></td></tr></table></figure><hr><p>参数含义：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">title: 文章标题</span><br><span class="line">date: 发表时间</span><br><span class="line">updated: 更新时间</span><br><span class="line">type: 文章类型</span><br><span class="line"> - </span><br><span class="line"> - </span><br><span class="line">categories: 文章分类</span><br><span class="line"> - </span><br><span class="line"> - </span><br><span class="line">tags: 文章标签</span><br><span class="line"> - </span><br><span class="line">toc_number: 是否显示文章标题顺序</span><br><span class="line">sticky: 置顶度，1开始，越大越往前</span><br><span class="line">comments: 是否显示评论</span><br><span class="line">description: 文章描述</span><br><span class="line">keywords: 关键字</span><br><span class="line">top_img: 文章顶部图片</span><br><span class="line">mathjax:</span><br><span class="line">katex:</span><br><span class="line">copyright: 是否开启文章版权</span><br><span class="line">aside: 侧边栏</span><br><span class="line">aplayer:</span><br><span class="line">highlight_shrink:</span><br><span class="line">cover: 文章封面图</span><br></pre></td></tr></table></figure><hr>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;博客配置，可以直接复制使用，参数根据需要进行添加，详细事宜可参考：&lt;a href=&quot;https://butterfly.js.org/posts/dc584b87/&quot;&gt;Butterfly官方文档&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;</summary>
-      
-    
-    
-    
-    <category term="教程类" scheme="http://jiangbk.top/categories/%E6%95%99%E7%A8%8B%E7%B1%BB/"/>
-    
-    
-    <category term="Butterfly主题" scheme="http://jiangbk.top/tags/Butterfly%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
