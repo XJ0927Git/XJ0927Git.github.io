@@ -6,7 +6,7 @@
   <link href="http://jiangbk.top/atom.xml" rel="self"/>
   
   <link href="http://jiangbk.top/"/>
-  <updated>2021-02-14T05:05:18.869Z</updated>
+  <updated>2021-02-16T15:24:35.635Z</updated>
   <id>http://jiangbk.top/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux修改IP地址</title>
+    <link href="http://jiangbk.top/2021/02/16/Linux/2_Linux%E4%BF%AE%E6%94%B9IP%E5%9C%B0%E5%9D%80/"/>
+    <id>http://jiangbk.top/2021/02/16/Linux/2_Linux%E4%BF%AE%E6%94%B9IP%E5%9C%B0%E5%9D%80/</id>
+    <published>2021-02-16T15:22:55.000Z</published>
+    <updated>2021-02-16T15:24:35.635Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux修改IP地址"><a href="#Linux修改IP地址" class="headerlink" title="Linux修改IP地址"></a>Linux修改IP地址</h1><h5 id="1-切换到root用户"><a href="#1-切换到root用户" class="headerlink" title="1)切换到root用户"></a>1)切换到root用户</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">su root</span><br></pre></td></tr></table></figure><h5 id="2-运行setup命令"><a href="#2-运行setup命令" class="headerlink" title="2)运行setup命令"></a>2)运行setup命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">setup</span><br></pre></td></tr></table></figure><h5 id="3-选择Network-configuration"><a href="#3-选择Network-configuration" class="headerlink" title="3)选择Network configuration"></a>3)选择Network configuration</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216232416.png"></p><h5 id="4-选择Device-configuration"><a href="#4-选择Device-configuration" class="headerlink" title="4)选择Device configuration"></a>4)选择Device configuration</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216232417.png"></p><h5 id="5-选择eth0"><a href="#5-选择eth0" class="headerlink" title="5)选择eth0"></a>5)选择eth0</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216232418.png"></p><h5 id="6-按空格-去掉-进行设置即可"><a href="#6-按空格-去掉-进行设置即可" class="headerlink" title="6)按空格,去掉*,进行设置即可"></a>6)按空格,去掉*,进行设置即可</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216232419.png"></p><h5 id="7-重启网络服务"><a href="#7-重启网络服务" class="headerlink" title="7)重启网络服务"></a>7)重启网络服务</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service network restart</span><br></pre></td></tr></table></figure><h5 id="8-测试"><a href="#8-测试" class="headerlink" title="8)测试:"></a>8)测试:</h5><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 查看地址是否为修改后的地址</span></span><br><span class="line">ifconfig</span><br></pre></td></tr></table></figure><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Linux修改IP地址&quot;&gt;&lt;a href=&quot;#Linux修改IP地址&quot; class=&quot;headerlink&quot; title=&quot;Linux修改IP地址&quot;&gt;&lt;/a&gt;Linux修改IP地址&lt;/h1&gt;&lt;h5 id=&quot;1-切换到root用户&quot;&gt;&lt;a href=&quot;#1-切换到r</summary>
+      
+    
+    
+    
+    <category term="Linux" scheme="http://jiangbk.top/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="http://jiangbk.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xsell连接Linux</title>
+    <link href="http://jiangbk.top/2021/02/16/Linux/1_Xsell%E8%BF%9E%E6%8E%A5Linux/"/>
+    <id>http://jiangbk.top/2021/02/16/Linux/1_Xsell%E8%BF%9E%E6%8E%A5Linux/</id>
+    <published>2021-02-16T15:15:19.000Z</published>
+    <updated>2021-02-16T15:20:24.229Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Xsell连接Linux"><a href="#Xsell连接Linux" class="headerlink" title="Xsell连接Linux"></a>Xsell连接Linux</h1><blockquote><p>来回切换虚拟机与Windows比较麻烦</p></blockquote><p>此时通过Xshell来连接</p><p><a href="https://pan.baidu.com/s/1yG6YFaSig4y1LcQ89FaV5A">百度云链接：提取码：ie6f </a></p><h5 id="1）查看Linux端口号"><a href="#1）查看Linux端口号" class="headerlink" title="1）查看Linux端口号"></a>1）查看Linux端口号</h5><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231615.png"  /><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231616.png"  /><h5 id="2）打开xshell，输入相关信息，建立连接"><a href="#2）打开xshell，输入相关信息，建立连接" class="headerlink" title="2）打开xshell，输入相关信息，建立连接"></a>2）打开xshell，输入相关信息，建立连接</h5><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231617.png"  /><h5 id="3-输入登录的Linux用户名"><a href="#3-输入登录的Linux用户名" class="headerlink" title="3)输入登录的Linux用户名"></a>3)输入登录的Linux用户名</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231618.png"></p><h5 id="4-输入登录的Linux密码"><a href="#4-输入登录的Linux密码" class="headerlink" title="4)输入登录的Linux密码"></a>4)输入登录的Linux密码</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231619.jpg"></p><h5 id="5-连接成功"><a href="#5-连接成功" class="headerlink" title="5)连接成功"></a>5)连接成功</h5><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231620.png"  /><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Xsell连接Linux&quot;&gt;&lt;a href=&quot;#Xsell连接Linux&quot; class=&quot;headerlink&quot; title=&quot;Xsell连接Linux&quot;&gt;&lt;/a&gt;Xsell连接Linux&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;来回切换虚拟机与Windows比较</summary>
+      
+    
+    
+    
+    <category term="Linux" scheme="http://jiangbk.top/categories/Linux/"/>
+    
+    
+    <category term="Xshell" scheme="http://jiangbk.top/tags/Xshell/"/>
+    
+    <category term="Linux" scheme="http://jiangbk.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在 VM 虚拟机下安装 Linux</title>
+    <link href="http://jiangbk.top/2021/02/16/Linux/0_%E5%9C%A8VM%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8B%E5%AE%89%E8%A3%85-Linux/"/>
+    <id>http://jiangbk.top/2021/02/16/Linux/0_%E5%9C%A8VM%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8B%E5%AE%89%E8%A3%85-Linux/</id>
+    <published>2021-02-16T15:08:35.000Z</published>
+    <updated>2021-02-16T15:20:17.969Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="在-VM-虚拟机下安装-Linux"><a href="#在-VM-虚拟机下安装-Linux" class="headerlink" title="在 VM 虚拟机下安装 Linux"></a>在 VM 虚拟机下安装 Linux</h1><h2 id="VM虚拟机安装"><a href="#VM虚拟机安装" class="headerlink" title="VM虚拟机安装"></a>VM虚拟机安装</h2><p><a href="https://pan.baidu.com/s/1xOLBGDqy2SmSI204AoIj7g">百度云链接：提取码：o6e6</a></p><p>安装完成后…查看是否有这两项</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231011.png"></p><hr><h2 id="安装Linux"><a href="#安装Linux" class="headerlink" title="安装Linux"></a>安装Linux</h2><h5 id="1）-Create-a-New-Virtual-Machine-新建虚拟机"><a href="#1）-Create-a-New-Virtual-Machine-新建虚拟机" class="headerlink" title="1） Create a New Virtual Machine (新建虚拟机)"></a>1） Create a New Virtual Machine (新建虚拟机)</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231012.png"></p><h5 id="2）选择Typical-典型"><a href="#2）选择Typical-典型" class="headerlink" title="2）选择Typical(典型)"></a>2）选择Typical(典型)</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231013.png"></p><h5 id="3）稍后选择-Linux-CentOS安装镜像"><a href="#3）稍后选择-Linux-CentOS安装镜像" class="headerlink" title="3）稍后选择 Linux CentOS安装镜像"></a>3）稍后选择 Linux CentOS安装镜像</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231014.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231015.png"></p><h5 id="4）选择CentOS安装目录"><a href="#4）选择CentOS安装目录" class="headerlink" title="4）选择CentOS安装目录"></a>4）选择CentOS安装目录</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231016.png"></p><h5 id="5）给系统指定最大磁盘空间-不建议小于5G"><a href="#5）给系统指定最大磁盘空间-不建议小于5G" class="headerlink" title="5）给系统指定最大磁盘空间(不建议小于5G)"></a>5）给系统指定最大磁盘空间(不建议小于5G)</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231017.png"></p><h5 id="6）完成"><a href="#6）完成" class="headerlink" title="6）完成"></a>6）完成</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231018.png"></p><h5 id="7）开始Server安装"><a href="#7）开始Server安装" class="headerlink" title="7）开始Server安装"></a>7）开始Server安装</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231019.png"></p><h5 id="8）开启虚拟机"><a href="#8）开启虚拟机" class="headerlink" title="8）开启虚拟机"></a>8）开启虚拟机</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231020.jpg"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231021.jpg"></p><h5 id="小插曲："><a href="#小插曲：" class="headerlink" title="小插曲："></a>小插曲：</h5><p>若第一次安装,此时可能出现下列问题</p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231022.jpg"></p><p>解决措施:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1.重启电脑进入 BIOS，既是按F1 或 F2、或F5、或delete等..不同品牌进入不同。</span><br><span class="line">2.找到菜单 Advanced   进入cpu configuration </span><br><span class="line">3.将 intel virtual technology 设置为 Enable，f10，然后保存退出；</span><br><span class="line">  或者是将SVM Mode 设置为Enable</span><br><span class="line">3.重新打开虚拟机即可。</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231023.png"></p><h5 id="9）设置语言"><a href="#9）设置语言" class="headerlink" title="9）设置语言"></a>9）设置语言</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231024.png"></p><h5 id="10）键盘选择"><a href="#10）键盘选择" class="headerlink" title="10）键盘选择"></a>10）键盘选择</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231025.png"></p><h5 id="11）基本储存设备"><a href="#11）基本储存设备" class="headerlink" title="11）基本储存设备"></a>11）基本储存设备</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231026.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231027.png"></p><h5 id="12）设置主机名"><a href="#12）设置主机名" class="headerlink" title="12）设置主机名"></a>12）设置主机名</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231028.png"></p><h5 id="13）选择时区"><a href="#13）选择时区" class="headerlink" title="13）选择时区"></a>13）选择时区</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231029.png"></p><h5 id="14）设置root账户"><a href="#14）设置root账户" class="headerlink" title="14）设置root账户"></a>14）设置root账户</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231030.jpg"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231031.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231032.jpg"></p><h5 id="15）安装中…"><a href="#15）安装中…" class="headerlink" title="15）安装中…"></a>15）安装中…</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231033.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231034.png"></p><h5 id="16）创建普通用户"><a href="#16）创建普通用户" class="headerlink" title="16）创建普通用户"></a>16）创建普通用户</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231035.png"></p><h5 id="17）设置时间"><a href="#17）设置时间" class="headerlink" title="17）设置时间"></a>17）设置时间</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231036.jpg"></p><h5 id="18）登录"><a href="#18）登录" class="headerlink" title="18）登录"></a>18）登录</h5><p>![](0_在 VM 虚拟机下安装 Linux/Linux/images/登录.jpg)</p><h5 id="19）网卡设置-非必须"><a href="#19）网卡设置-非必须" class="headerlink" title="19）网卡设置(非必须)"></a>19）网卡设置(非必须)</h5><p><img src= "/img/loading.gif" data-lazy-src="../../../Typora_%E5%B7%A5%E5%85%B7%E7%B1%BB/Linux/images/%E7%BD%91%E7%BB%9C%E9%80%89%E6%8B%A9.jpg"></p><p><strong>nat方式</strong>，每次换网络的情况下，<strong>IP不会变化。</strong>跨网段访问。<br><strong>桥接模式</strong>，每次换网络的情况下，<strong>IP都会变化。优势是和主机一个段，相对更快。</strong></p><p>上面是开发环境，下面是线上环境。 </p><hr><h2 id="克隆Linux"><a href="#克隆Linux" class="headerlink" title="克隆Linux"></a>克隆Linux</h2><p>发现一步一步安装确实挺繁琐的，可以选择直接克隆</p><h5 id="1）克隆"><a href="#1）克隆" class="headerlink" title="1）克隆"></a>1）克隆</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231037.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231038.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231039.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231040.png"></p><h5 id="2）克隆路径"><a href="#2）克隆路径" class="headerlink" title="2）克隆路径"></a>2）克隆路径</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231041.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231042.png"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231043.png"></p><h5 id="3）完成克隆后多台服务器："><a href="#3）完成克隆后多台服务器：" class="headerlink" title="3）完成克隆后多台服务器："></a>3）完成克隆后多台服务器：</h5><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/zhao_guojiang6/my_pic_bed/raw/master/img/20210216231044.jpg"></p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;在-VM-虚拟机下安装-Linux&quot;&gt;&lt;a href=&quot;#在-VM-虚拟机下安装-Linux&quot; class=&quot;headerlink&quot; title=&quot;在 VM 虚拟机下安装 Linux&quot;&gt;&lt;/a&gt;在 VM 虚拟机下安装 Linux&lt;/h1&gt;&lt;h2 id=&quot;VM虚拟机</summary>
+      
+    
+    
+    
+    <category term="Linux" scheme="http://jiangbk.top/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="http://jiangbk.top/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Debug调试</title>
